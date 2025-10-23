@@ -34,8 +34,7 @@ public class Customer
 		{
 			double thisAmount = 0;
 
-			// determine amounts for each line
-            thisAmount = Rental.getAmount(each, thisAmount);
+
 
             frequentRenterPoints += getFrequentRentalPoints(each);
 
