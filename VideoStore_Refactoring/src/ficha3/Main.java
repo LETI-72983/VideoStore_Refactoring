@@ -1,4 +1,4 @@
-package ficha3.v0;
+package ficha3;
 
 /***********************************************************
  * Filename: Main.java
