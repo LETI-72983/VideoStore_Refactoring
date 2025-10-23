@@ -7,6 +7,7 @@
     <list default="true" id="64ead745-f141-468e-a88d-90a1ad81ae76" name="Changes" comment="criar projeto">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/VideoStore_Refactoring/src/ficha3/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/VideoStore_Refactoring/src/ficha3/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VideoStore_Refactoring/src/ficha3/Rental.java" beforeDir="false" afterPath="$PROJECT_DIR$/VideoStore_Refactoring/src/ficha3/Rental.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,23 +21,22 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "LETI-72983"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;LETI-72983&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/LETI-72983/VideoStore_Refactoring",
-    "accountId": "61262eb5-088c-401a-bdff-274170c758c4"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/LETI-72983/VideoStore_Refactoring&quot;,
+    &quot;accountId&quot;: &quot;61262eb5-088c-401a-bdff-274170c758c4&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="34T69uFv81M7XKKGx0EzSNwdOPO" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -48,9 +48,8 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "ficha3-v1",
+    "git-widget-placeholder": "ficha3.v1Verdadeiro",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/z_mig/Downloads/VideoStore_Refactoring/VideoStore_Refactoring/src/ficha3/v1",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -61,11 +60,8 @@
   }
 }]]></component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\z_mig\Downloads\VideoStore_Refactoring\VideoStore_Refactoring\src\ficha3\v1" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\z_mig\Downloads\VideoStore_Refactoring\VideoStore_Refactoring\src\ficha3\v0" />
+    <key name="MoveMembersDialog.RECENTS_KEY">
+      <recent name="ficha3.Rental" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -83,7 +79,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1761225069302</updated>
-      <workItem from="1761225070749" duration="3240000" />
+      <workItem from="1761225070749" duration="1236000" />
     </task>
     <task id="LOCAL-00001" summary="criar projeto">
       <option name="closed" value="true" />
@@ -93,30 +89,11 @@
       <option name="project" value="LOCAL" />
       <updated>1761226042252</updated>
     </task>
-    <task id="LOCAL-00002" summary="criar projeto">
-      <option name="closed" value="true" />
-      <created>1761226413000</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1761226413000</updated>
-    </task>
-    <option name="localTasksCounter" value="3" />
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="criar projeto" />
