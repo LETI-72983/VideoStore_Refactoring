@@ -32,15 +32,13 @@ public class Customer
 		
 		for (Rental each: _rentals)
 		{
-			double thisAmount = 0;
-
 
 
             frequentRenterPoints += getFrequentRentalPoints(each);
 
             // show figures for this rental
-			result += "\t" + each.getMovie().getTitle() + "\t" + thisAmount + "\n";
-			totalAmount += thisAmount;
+			result += "\t" + each.getMovie().getTitle() + "\t" + (double) 0 + "\n";
+			totalAmount += 0;
 		}
 
 		// add footer lines
