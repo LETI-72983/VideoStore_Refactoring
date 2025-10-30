@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="64ead745-f141-468e-a88d-90a1ad81ae76" name="Changes" comment="criar projeto">
+    <list default="true" id="64ead745-f141-468e-a88d-90a1ad81ae76" name="Changes" comment="alterações v2, tratados erros função statement">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/VideoStore_Refactoring/src/ficha3/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/VideoStore_Refactoring/src/ficha3/Customer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,24 +40,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "extract.method.default.visibility": "private",
-    "git-widget-placeholder": "ficha3-v2",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "vcs.Git",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;extract.method.default.visibility&quot;: &quot;private&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;ficha3-v2&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveMembersDialog.RECENTS_KEY">
       <recent name="ficha3.Rental" />
@@ -80,6 +79,7 @@
       <option name="presentableId" value="Default" />
       <updated>1761225069302</updated>
       <workItem from="1761225070749" duration="1236000" />
+      <workItem from="1761830383543" duration="1313000" />
     </task>
     <task id="LOCAL-00001" summary="criar projeto">
       <option name="closed" value="true" />
@@ -89,7 +89,23 @@
       <option name="project" value="LOCAL" />
       <updated>1761226042252</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="alterações v2, criar metodo getFrequentRentalPoints() no customer.java">
+      <option name="closed" value="true" />
+      <created>1761231022259</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1761231022259</updated>
+    </task>
+    <task id="LOCAL-00003" summary="alterações v2, tratados erros função statement">
+      <option name="closed" value="true" />
+      <created>1761231583615</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1761231583615</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -97,6 +113,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="criar projeto" />
-    <option name="LAST_COMMIT_MESSAGE" value="criar projeto" />
+    <MESSAGE value="alterações v2, criar metodo getFrequentRentalPoints() no customer.java" />
+    <MESSAGE value="alterações v2, tratados erros função statement" />
+    <option name="LAST_COMMIT_MESSAGE" value="alterações v2, tratados erros função statement" />
   </component>
 </project>
