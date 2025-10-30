@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="64ead745-f141-468e-a88d-90a1ad81ae76" name="Changes" comment="alterações v2, inline refactoring do thisAmount()">
+    <list default="true" id="64ead745-f141-468e-a88d-90a1ad81ae76" name="Changes" comment="criar projeto">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/VideoStore_Refactoring/src/ficha3/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/VideoStore_Refactoring/src/ficha3/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/VideoStore_Refactoring/src/v4/Rental.java" beforeDir="false" afterPath="$PROJECT_DIR$/VideoStore_Refactoring/src/v4/Rental.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,7 +16,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="ficha3-v3" />
+        <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -48,8 +47,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "extract.method.default.visibility": "private",
-    "git-widget-placeholder": "ficha3-v3",
+    "git-widget-placeholder": "ficha3-v4",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -81,7 +79,6 @@
       <option name="presentableId" value="Default" />
       <updated>1761225069302</updated>
       <workItem from="1761225070749" duration="1236000" />
-      <workItem from="1761830383543" duration="3963000" />
     </task>
     <task id="LOCAL-00001" summary="criar projeto">
       <option name="closed" value="true" />
@@ -91,47 +88,7 @@
       <option name="project" value="LOCAL" />
       <updated>1761226042252</updated>
     </task>
-    <task id="LOCAL-00002" summary="alterações v2, criar metodo getFrequentRentalPoints() no customer.java">
-      <option name="closed" value="true" />
-      <created>1761231022259</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1761231022259</updated>
-    </task>
-    <task id="LOCAL-00003" summary="alterações v2, tratados erros função statement">
-      <option name="closed" value="true" />
-      <created>1761231583615</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1761231583615</updated>
-    </task>
-    <task id="LOCAL-00004" summary="alterações v2, inline refactoring do thisAmount()">
-      <option name="closed" value="true" />
-      <created>1761831963648</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1761831963648</updated>
-    </task>
-    <task id="LOCAL-00005" summary="alterações v2, inline refactoring do thisAmount()">
-      <option name="closed" value="true" />
-      <created>1761833784742</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1761833784742</updated>
-    </task>
-    <task id="LOCAL-00006" summary="alterações v2, inline refactoring do thisAmount()">
-      <option name="closed" value="true" />
-      <created>1761834030826</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1761834030826</updated>
-    </task>
-    <option name="localTasksCounter" value="7" />
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -139,9 +96,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="criar projeto" />
-    <MESSAGE value="alterações v2, criar metodo getFrequentRentalPoints() no customer.java" />
-    <MESSAGE value="alterações v2, tratados erros função statement" />
-    <MESSAGE value="alterações v2, inline refactoring do thisAmount()" />
-    <option name="LAST_COMMIT_MESSAGE" value="alterações v2, inline refactoring do thisAmount()" />
+    <option name="LAST_COMMIT_MESSAGE" value="criar projeto" />
   </component>
 </project>
