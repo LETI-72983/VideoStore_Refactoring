@@ -80,7 +80,7 @@
       <option name="presentableId" value="Default" />
       <updated>1761225069302</updated>
       <workItem from="1761225070749" duration="1236000" />
-      <workItem from="1761830383543" duration="3308000" />
+      <workItem from="1761830383543" duration="3963000" />
     </task>
     <task id="LOCAL-00001" summary="criar projeto">
       <option name="closed" value="true" />
@@ -114,7 +114,23 @@
       <option name="project" value="LOCAL" />
       <updated>1761831963648</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="alterações v2, inline refactoring do thisAmount()">
+      <option name="closed" value="true" />
+      <created>1761833784742</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1761833784742</updated>
+    </task>
+    <task id="LOCAL-00006" summary="alterações v2, inline refactoring do thisAmount()">
+      <option name="closed" value="true" />
+      <created>1761834030826</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1761834030826</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
