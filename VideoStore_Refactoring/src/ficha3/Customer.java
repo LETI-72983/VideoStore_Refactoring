@@ -1,21 +1,19 @@
 package ficha3;
 
-import v2.Movie;
-import v2.Rental;
 
 import java.util.Vector;
 
 public class Customer
 {
-    private String			_name;
-    private Vector<v2.Rental>	_rentals	= new Vector<v2.Rental>();
+    private String _name;
+    private Vector<Rental> _rentals = new Vector<Rental>();
 
     public Customer(String _name)
     {
         this._name = _name;
     }
 
-    public void addRental(v2.Rental arg)
+    public void addRental(Rental arg)
     {
         _rentals.addElement(arg);
     }
@@ -25,35 +23,35 @@ public class Customer
         return _name;
     }
 
-    public String statement()
+    // Nova query para calcular o totalAmount
+    public double getTotalAmount()
     {
         double totalAmount = 0;
-        int frequentRenterPoints = 0;
-
-        // header
-        String result = "Rental Record for " + getName() + "\n";
-
         for (Rental each: _rentals)
-        {
-
-            // add frequent renter points
-            frequentRenterPoints++;
-
-            // add bonus for a two day new release rental
-            if ((each.getMovie().getPriceCode() == Movie.Code.NEW_RELEASE) && each.getDaysRented() > 1)
-                frequentRenterPoints++;
-
-            // show figures for this rental
-            result += "\t" + each.getMovie().getTitle() + "\t" + each.getAmount() + "\n";
             totalAmount += each.getAmount();
-        }
-
-        // add footer lines
-        result += "Amount owed is " + totalAmount + "\n";
-        result += "You earned " + frequentRenterPoints + " frequent renter points";
-        return result;
+        return totalAmount;
     }
 
+
+    // Nova query para calcular os pontos do frequent renter
+    public int getTotalFrequentRenterPoints()
+    {
+        int frequentRenterPoints = 0;
+        for (Rental each: _rentals)
+            frequentRenterPoints += each.getFrequentRentalPoints();
+        return frequentRenterPoints;
+    }
+
+
+    public String statement()
+    {
+        // Usa os métodos auxiliares de query criados
+        String result = "Rental Record for " + getName() + "\n";
+        for (Rental each : _rentals) {
+            result += "\t" + each.getMovie().getTitle() + "\t" + each.getAmount() + "\n";
+        }
+        result += "Amount owed is " + getTotalAmount() + "\n";
+        result += "You earned " + getTotalFrequentRenterPoints() + " frequent renter points";
+        return result;
+    }
 }
-
-
