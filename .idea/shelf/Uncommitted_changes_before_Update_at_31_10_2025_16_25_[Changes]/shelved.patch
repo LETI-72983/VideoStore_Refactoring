@@ -1,0 +1,138 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"64ead745-f141-468e-a88d-90a1ad81ae76\" name=\"Changes\" comment=\"criar projeto\">\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/VideoStore_Refactoring/src/ficha3/Customer.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/VideoStore_Refactoring/src/ficha3/Customer.java\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\r\n      <map>\r\n        <entry key=\"$PROJECT_DIR$\" value=\"main\" />\r\n      </map>\r\n    </option>\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"GitHubPullRequestSearchHistory\">{\r\n  &quot;lastFilter&quot;: {\r\n    &quot;state&quot;: &quot;OPEN&quot;,\r\n    &quot;assignee&quot;: &quot;LETI-72983&quot;\r\n  }\r\n}</component>\r\n  <component name=\"GithubPullRequestsUISettings\">{\r\n  &quot;selectedUrlAndAccountId&quot;: {\r\n    &quot;url&quot;: &quot;https://github.com/LETI-72983/VideoStore_Refactoring&quot;,\r\n    &quot;accountId&quot;: &quot;61262eb5-088c-401a-bdff-274170c758c4&quot;\r\n  }\r\n}</component>\r\n  <component name=\"ProjectColorInfo\">{\r\n  &quot;associatedIndex&quot;: 0\r\n}</component>\r\n  <component name=\"ProjectId\" id=\"34T69uFv81M7XKKGx0EzSNwdOPO\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\"><![CDATA[{\r\n  \"keyToString\": {\r\n    \"ModuleVcsDetector.initialDetectionPerformed\": \"true\",\r\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\r\n    \"RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252\": \"true\",\r\n    \"RunOnceActivity.git.unshallow\": \"true\",\r\n    \"git-widget-placeholder\": \"ficha3-v4\",\r\n    \"kotlin-language-version-configured\": \"true\",\r\n    \"node.js.detected.package.eslint\": \"true\",\r\n    \"node.js.detected.package.tslint\": \"true\",\r\n    \"node.js.selected.package.eslint\": \"(autodetect)\",\r\n    \"node.js.selected.package.tslint\": \"(autodetect)\",\r\n    \"nodejs_package_manager_path\": \"npm\",\r\n    \"settings.editor.selected.configurable\": \"vcs.Git\",\r\n    \"vue.rearranger.settings.migration\": \"true\"\r\n  }\r\n}]]></component>\r\n  <component name=\"RecentsManager\">\r\n    <key name=\"MoveMembersDialog.RECENTS_KEY\">\r\n      <recent name=\"ficha3.Rental\" />\r\n    </key>\r\n  </component>\r\n  <component name=\"SharedIndexes\">\r\n    <attachedChunks>\r\n      <set>\r\n        <option value=\"bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.26199.169\" />\r\n        <option value=\"bundled-js-predefined-d6986cc7102b-9c94529fcfe0-JavaScript-IU-252.26199.169\" />\r\n      </set>\r\n    </attachedChunks>\r\n  </component>\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"64ead745-f141-468e-a88d-90a1ad81ae76\" name=\"Changes\" comment=\"\" />\r\n      <created>1761225069302</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1761225069302</updated>\r\n      <workItem from=\"1761225070749\" duration=\"1236000\" />\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"criar projeto\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1761226042252</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1761226042252</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"2\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"criar projeto\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"criar projeto\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 58b2096f8b336c3474a29182f35a13e34adde54f)
++++ b/.idea/workspace.xml	(date 1761927909401)
+@@ -4,7 +4,17 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="64ead745-f141-468e-a88d-90a1ad81ae76" name="Changes" comment="criar projeto">
++    <list default="true" id="64ead745-f141-468e-a88d-90a1ad81ae76" name="Changes" comment="alterações v2, inline refactoring do thisAmount()">
++      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_23_10_2025_15_22_[Changes]/shelved.patch" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_23_10_2025_15_22__Changes_.xml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_23_10_2025_15_24_[Changes]/shelved.patch" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_23_10_2025_15_24__Changes_.xml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_23_10_2025_15_25_[Changes]/shelved.patch" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_23_10_2025_15_25__Changes_.xml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_23_10_2025_15_26_[Changes]/shelved.patch" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_23_10_2025_15_26__Changes_.xml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_23_10_2025_15_26_[Changes]/shelved.patch" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_23_10_2025_15_26__Changes_.xml" beforeDir="false" />
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/VideoStore_Refactoring/src/ficha3/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/VideoStore_Refactoring/src/ficha3/Customer.java" afterDir="false" />
+     </list>
+@@ -27,12 +37,12 @@
+     &quot;assignee&quot;: &quot;LETI-72983&quot;
+   }
+ }</component>
+-  <component name="GithubPullRequestsUISettings">{
+-  &quot;selectedUrlAndAccountId&quot;: {
+-    &quot;url&quot;: &quot;https://github.com/LETI-72983/VideoStore_Refactoring&quot;,
+-    &quot;accountId&quot;: &quot;61262eb5-088c-401a-bdff-274170c758c4&quot;
+-  }
+-}</component>
++  <component name="GithubPullRequestsUISettings"><![CDATA[{
++  "selectedUrlAndAccountId": {
++    "url": "https://github.com/LETI-72983/VideoStore_Refactoring.git",
++    "accountId": "cfcf8b96-0416-45c3-81e8-8d6ae745af36"
++  }
++}]]></component>
+   <component name="ProjectColorInfo">{
+   &quot;associatedIndex&quot;: 0
+ }</component>
+@@ -47,7 +57,8 @@
+     "RunOnceActivity.ShowReadmeOnStart": "true",
+     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+     "RunOnceActivity.git.unshallow": "true",
+-    "git-widget-placeholder": "ficha3-v4",
++    "extract.method.default.visibility": "private",
++    "git-widget-placeholder": "ficha3-v5",
+     "kotlin-language-version-configured": "true",
+     "node.js.detected.package.eslint": "true",
+     "node.js.detected.package.tslint": "true",
+@@ -66,8 +77,8 @@
+   <component name="SharedIndexes">
+     <attachedChunks>
+       <set>
+-        <option value="bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.26199.169" />
+-        <option value="bundled-js-predefined-d6986cc7102b-9c94529fcfe0-JavaScript-IU-252.26199.169" />
++        <option value="bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.27397.103" />
++        <option value="bundled-js-predefined-d6986cc7102b-3aa1da707db6-JavaScript-IU-252.27397.103" />
+       </set>
+     </attachedChunks>
+   </component>
+@@ -79,6 +90,7 @@
+       <option name="presentableId" value="Default" />
+       <updated>1761225069302</updated>
+       <workItem from="1761225070749" duration="1236000" />
++      <workItem from="1761830383543" duration="3963000" />
+     </task>
+     <task id="LOCAL-00001" summary="criar projeto">
+       <option name="closed" value="true" />
+@@ -88,7 +100,47 @@
+       <option name="project" value="LOCAL" />
+       <updated>1761226042252</updated>
+     </task>
+-    <option name="localTasksCounter" value="2" />
++    <task id="LOCAL-00002" summary="alterações v2, criar metodo getFrequentRentalPoints() no customer.java">
++      <option name="closed" value="true" />
++      <created>1761231022259</created>
++      <option name="number" value="00002" />
++      <option name="presentableId" value="LOCAL-00002" />
++      <option name="project" value="LOCAL" />
++      <updated>1761231022259</updated>
++    </task>
++    <task id="LOCAL-00003" summary="alterações v2, tratados erros função statement">
++      <option name="closed" value="true" />
++      <created>1761231583615</created>
++      <option name="number" value="00003" />
++      <option name="presentableId" value="LOCAL-00003" />
++      <option name="project" value="LOCAL" />
++      <updated>1761231583615</updated>
++    </task>
++    <task id="LOCAL-00004" summary="alterações v2, inline refactoring do thisAmount()">
++      <option name="closed" value="true" />
++      <created>1761831963648</created>
++      <option name="number" value="00004" />
++      <option name="presentableId" value="LOCAL-00004" />
++      <option name="project" value="LOCAL" />
++      <updated>1761831963648</updated>
++    </task>
++    <task id="LOCAL-00005" summary="alterações v2, inline refactoring do thisAmount()">
++      <option name="closed" value="true" />
++      <created>1761833784742</created>
++      <option name="number" value="00005" />
++      <option name="presentableId" value="LOCAL-00005" />
++      <option name="project" value="LOCAL" />
++      <updated>1761833784742</updated>
++    </task>
++    <task id="LOCAL-00006" summary="alterações v2, inline refactoring do thisAmount()">
++      <option name="closed" value="true" />
++      <created>1761834030826</created>
++      <option name="number" value="00006" />
++      <option name="presentableId" value="LOCAL-00006" />
++      <option name="project" value="LOCAL" />
++      <updated>1761834030826</updated>
++    </task>
++    <option name="localTasksCounter" value="7" />
+     <servers />
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">
+@@ -96,6 +148,9 @@
+   </component>
+   <component name="VcsManagerConfiguration">
+     <MESSAGE value="criar projeto" />
+-    <option name="LAST_COMMIT_MESSAGE" value="criar projeto" />
++    <MESSAGE value="alterações v2, criar metodo getFrequentRentalPoints() no customer.java" />
++    <MESSAGE value="alterações v2, tratados erros função statement" />
++    <MESSAGE value="alterações v2, inline refactoring do thisAmount()" />
++    <option name="LAST_COMMIT_MESSAGE" value="alterações v2, inline refactoring do thisAmount()" />
+   </component>
+ </project>
+\ No newline at end of file
