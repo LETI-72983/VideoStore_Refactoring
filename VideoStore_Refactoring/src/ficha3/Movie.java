@@ -2,48 +2,20 @@ package ficha3;
 
 public class Movie {
 
-    public int getFrequentRentalPoints(Rental rental)
+    private String _title;
+    private Price _price;
+
+    public Movie(String title, Price price) {
+        _title = title;
+        _price = price;
+    }
+
+    public String getTitle() {
+        return _title;
+    }
+
+    public Price getPrice()
     {
-        return ((rental.getMovie().getPriceCode() == Code.NEW_RELEASE) && rental.getDaysRented() > 1) ? 2 : 1;
+        return _price;
     }
-
-    double getRentalAmount(Rental rental) {
-        double result = 0;
-
-        switch (_priceCode)
-        {
-            case REGULAR:
-                result += 2;
-                if (rental.getDaysRented() > 2)
-                    result += (rental.getDaysRented() - 2) * 1.5;
-                break;
-            case NEW_RELEASE:
-                result += rental.getDaysRented() * 3;
-                break;
-            case CHILDRENS:
-                result += 1.5;
-                if (rental.getDaysRented() > 3)
-                    result += (rental.getDaysRented() - 3) * 1.5;
-                break;
-        }
-        return result;
-    }
-
-    public enum Code {REGULAR, CHILDRENS, NEW_RELEASE};
-	
-	private String _title;
-	private Code _priceCode;
-	
-	public Movie(String title, Code priceCode) {
-		_title = title;
-		_priceCode = priceCode;
-	}
-
-	public String getTitle() {
-		return _title;
-	}
-
-	public Code getPriceCode() {
-		return _priceCode;
-	}
 }

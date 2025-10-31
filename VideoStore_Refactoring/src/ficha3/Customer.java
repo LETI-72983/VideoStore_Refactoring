@@ -1,12 +1,13 @@
 package ficha3;
 
 
+
 import java.util.Vector;
 
 public class Customer
 {
-    private String _name;
-    private Vector<Rental> _rentals = new Vector<Rental>();
+    private String			_name;
+    private Vector<Rental>	_rentals	= new Vector<Rental>();
 
     public Customer(String _name)
     {
@@ -23,46 +24,29 @@ public class Customer
         return _name;
     }
 
-    // Nova query para calcular o totalAmount
-    public double getTotalAmount()
-    {
-        double totalAmount = 0;
-        for (Rental each: _rentals)
-            totalAmount += each._movie.getRentalAmount(each);
-        return totalAmount;
-    }
-
-
-    // Nova query para calcular os pontos do frequent renter
-    public int getTotalFrequentRenterPoints()
-    {
-        int frequentRenterPoints = 0;
-        for (Rental each: _rentals)
-            frequentRenterPoints += each._movie.getFrequentRentalPoints(each);
-        return frequentRenterPoints;
-    }
-
-
     public String statement()
     {
-        // Usa os métodos auxiliares de query criados
+        // header
         String result = "Rental Record for " + getName() + "\n";
-        for (Rental each : _rentals) {
-            result += "\t" + each.getMovie().getTitle() + "\t" + each._movie.getRentalAmount(each) + "\n";
-        }
+
+        for (Rental each : _rentals)
+            result += "\t" + each.getMovie().getTitle() + "\t" + each.getMovie().getPrice().getRentalAmount(each.getDaysRented()) + "\n";
+
+        // add footer lines
         result += "Amount owed is " + getTotalAmount() + "\n";
         result += "You earned " + getTotalFrequentRenterPoints() + " frequent renter points";
         return result;
     }
 
-    public String htmlStatement(){
-        //header
+    public String htmlStatement()
+    {
+        // header
         String result = "<font size=\"5\" face=\"Georgia, Arial, Garamond\" color=\"green\">\n";
         result += "<h2>Rental Record for <i>" + getName() + "</i></h2>\n";
 
         result += "<ul>\n";
         for (Rental each : _rentals)
-            result += "\t<li>" + each.getMovie().getTitle() + "\t" + each._movie.getRentalAmount(each)+"\n";
+            result += "\t<li>" + each.getMovie().getTitle() + "\t" +  each.getMovie().getPrice().getRentalAmount(each.getDaysRented()) +"\n";
         result += "</ul>\n";
 
         // add footer lines
@@ -72,4 +56,21 @@ public class Customer
 
         return result;
     }
+
+    public int getTotalFrequentRenterPoints()
+    {
+        int frequentRenterPoints = 0;
+        for (Rental each : _rentals)
+            frequentRenterPoints += each._movie.getPrice().getFrequentRentalPoints(each.getDaysRented());
+        return frequentRenterPoints;
+    }
+
+    public double getTotalAmount()
+    {
+        double totalAmount = 0;
+        for (Rental each : _rentals)
+            totalAmount += each.getMovie().getPrice().getRentalAmount(each.getDaysRented());
+        return totalAmount;
+    }
+
 }
