@@ -1,7 +1,5 @@
 package ficha3;
 
-
-
 import java.util.Vector;
 
 public class Customer
