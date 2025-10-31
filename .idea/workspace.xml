@@ -5,12 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="64ead745-f141-468e-a88d-90a1ad81ae76" name="Changes" comment="alterações v2, inline refactoring do thisAmount()">
+      <change afterPath="$PROJECT_DIR$/VideoStore_Refactoring/src/ficha3/BestPrice.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VideoStore_Refactoring/src/ficha3/ChildrensPrice.java" beforeDir="false" afterPath="$PROJECT_DIR$/VideoStore_Refactoring/src/ficha3/ChildrensPrice.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/VideoStore_Refactoring/src/ficha3/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/VideoStore_Refactoring/src/ficha3/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/VideoStore_Refactoring/src/ficha3/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/VideoStore_Refactoring/src/ficha3/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/VideoStore_Refactoring/src/ficha3/Movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/VideoStore_Refactoring/src/ficha3/Movie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VideoStore_Refactoring/src/ficha3/NewReleasePrice.java" beforeDir="false" afterPath="$PROJECT_DIR$/VideoStore_Refactoring/src/ficha3/NewReleasePrice.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/VideoStore_Refactoring/src/ficha3/Price.java" beforeDir="false" afterPath="$PROJECT_DIR$/VideoStore_Refactoring/src/ficha3/Price.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/VideoStore_Refactoring/src/ficha3/Rental.java" beforeDir="false" afterPath="$PROJECT_DIR$/VideoStore_Refactoring/src/ficha3/Rental.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VideoStore_Refactoring/src/ficha3/RegularPrice.java" beforeDir="false" afterPath="$PROJECT_DIR$/VideoStore_Refactoring/src/ficha3/RegularPrice.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +60,7 @@
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "extract.method.default.visibility": "private",
-    "git-widget-placeholder": "ficha3-v8",
+    "git-widget-placeholder": "ficha3-v9",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
