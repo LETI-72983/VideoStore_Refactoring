@@ -28,7 +28,7 @@ public class Customer
     {
         double totalAmount = 0;
         for (Rental each: _rentals)
-            totalAmount += each.getAmount();
+            totalAmount += each._movie.getRentalAmount(each);
         return totalAmount;
     }
 
@@ -38,7 +38,7 @@ public class Customer
     {
         int frequentRenterPoints = 0;
         for (Rental each: _rentals)
-            frequentRenterPoints += each.getFrequentRentalPoints();
+            frequentRenterPoints += each._movie.getFrequentRentalPoints(each);
         return frequentRenterPoints;
     }
 
@@ -48,7 +48,7 @@ public class Customer
         // Usa os métodos auxiliares de query criados
         String result = "Rental Record for " + getName() + "\n";
         for (Rental each : _rentals) {
-            result += "\t" + each.getMovie().getTitle() + "\t" + each.getAmount() + "\n";
+            result += "\t" + each.getMovie().getTitle() + "\t" + each._movie.getRentalAmount(each) + "\n";
         }
         result += "Amount owed is " + getTotalAmount() + "\n";
         result += "You earned " + getTotalFrequentRenterPoints() + " frequent renter points";
@@ -62,7 +62,7 @@ public class Customer
 
         result += "<ul>\n";
         for (Rental each : _rentals)
-            result += "\t<li>" + each.getMovie().getTitle() + "\t" + each.getAmount()+"\n";
+            result += "\t<li>" + each.getMovie().getTitle() + "\t" + each._movie.getRentalAmount(each)+"\n";
         result += "</ul>\n";
 
         // add footer lines

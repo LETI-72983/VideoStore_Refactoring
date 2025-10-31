@@ -1,0 +1,132 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"64ead745-f141-468e-a88d-90a1ad81ae76\" name=\"Changes\" comment=\"alterações v2, inline refactoring do thisAmount()\">\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/VideoStore_Refactoring/src/ficha3/Customer.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/VideoStore_Refactoring/src/ficha3/Customer.java\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\r\n      <map>\r\n        <entry key=\"$PROJECT_DIR$\" value=\"main\" />\r\n      </map>\r\n    </option>\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"GitHubPullRequestSearchHistory\">{\r\n  &quot;lastFilter&quot;: {\r\n    &quot;state&quot;: &quot;OPEN&quot;,\r\n    &quot;assignee&quot;: &quot;LETI-72983&quot;\r\n  }\r\n}</component>\r\n  <component name=\"GithubPullRequestsUISettings\">{\r\n  &quot;selectedUrlAndAccountId&quot;: {\r\n    &quot;url&quot;: &quot;https://github.com/LETI-72983/VideoStore_Refactoring&quot;,\r\n    &quot;accountId&quot;: &quot;61262eb5-088c-401a-bdff-274170c758c4&quot;\r\n  }\r\n}</component>\r\n  <component name=\"ProjectColorInfo\">{\r\n  &quot;associatedIndex&quot;: 0\r\n}</component>\r\n  <component name=\"ProjectId\" id=\"34T69uFv81M7XKKGx0EzSNwdOPO\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">{\r\n  &quot;keyToString&quot;: {\r\n    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,\r\n    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,\r\n    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,\r\n    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,\r\n    &quot;extract.method.default.visibility&quot;: &quot;private&quot;,\r\n    &quot;git-widget-placeholder&quot;: &quot;ficha3-v2&quot;,\r\n    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,\r\n    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,\r\n    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,\r\n    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,\r\n    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,\r\n    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,\r\n    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;,\r\n    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;\r\n  }\r\n}</component>\r\n  <component name=\"RecentsManager\">\r\n    <key name=\"MoveMembersDialog.RECENTS_KEY\">\r\n      <recent name=\"ficha3.Rental\" />\r\n    </key>\r\n  </component>\r\n  <component name=\"SharedIndexes\">\r\n    <attachedChunks>\r\n      <set>\r\n        <option value=\"bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.26199.169\" />\r\n        <option value=\"bundled-js-predefined-d6986cc7102b-9c94529fcfe0-JavaScript-IU-252.26199.169\" />\r\n      </set>\r\n    </attachedChunks>\r\n  </component>\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"64ead745-f141-468e-a88d-90a1ad81ae76\" name=\"Changes\" comment=\"\" />\r\n      <created>1761225069302</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1761225069302</updated>\r\n      <workItem from=\"1761225070749\" duration=\"1236000\" />\r\n      <workItem from=\"1761830383543\" duration=\"3963000\" />\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"criar projeto\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1761226042252</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1761226042252</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"alterações v2, criar metodo getFrequentRentalPoints() no customer.java\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1761231022259</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1761231022259</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00003\" summary=\"alterações v2, tratados erros função statement\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1761231583615</created>\r\n      <option name=\"number\" value=\"00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1761231583615</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00004\" summary=\"alterações v2, inline refactoring do thisAmount()\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1761831963648</created>\r\n      <option name=\"number\" value=\"00004\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1761831963648</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00005\" summary=\"alterações v2, inline refactoring do thisAmount()\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1761833784742</created>\r\n      <option name=\"number\" value=\"00005\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00005\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1761833784742</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00006\" summary=\"alterações v2, inline refactoring do thisAmount()\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1761834030826</created>\r\n      <option name=\"number\" value=\"00006\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00006\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1761834030826</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"7\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"criar projeto\" />\r\n    <MESSAGE value=\"alterações v2, criar metodo getFrequentRentalPoints() no customer.java\" />\r\n    <MESSAGE value=\"alterações v2, tratados erros função statement\" />\r\n    <MESSAGE value=\"alterações v2, inline refactoring do thisAmount()\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"alterações v2, inline refactoring do thisAmount()\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 00e07712231a78b37270f45c1df89c62b306615f)
++++ b/.idea/workspace.xml	(date 1761834613318)
+@@ -4,9 +4,10 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="64ead745-f141-468e-a88d-90a1ad81ae76" name="Changes" comment="alterações v2, inline refactoring do thisAmount()">
++    <list default="true" id="64ead745-f141-468e-a88d-90a1ad81ae76" name="Changes" comment="criar projeto">
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/VideoStore_Refactoring/src/ficha3/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/VideoStore_Refactoring/src/ficha3/Customer.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/VideoStore_Refactoring/src/ficha3/Rental.java" beforeDir="false" afterPath="$PROJECT_DIR$/VideoStore_Refactoring/src/ficha3/Rental.java" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -41,24 +42,23 @@
+     <option name="hideEmptyMiddlePackages" value="true" />
+     <option name="showLibraryContents" value="true" />
+   </component>
+-  <component name="PropertiesComponent">{
+-  &quot;keyToString&quot;: {
+-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+-    &quot;extract.method.default.visibility&quot;: &quot;private&quot;,
+-    &quot;git-widget-placeholder&quot;: &quot;ficha3-v2&quot;,
+-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+-    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;,
+-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
++  <component name="PropertiesComponent"><![CDATA[{
++  "keyToString": {
++    "ModuleVcsDetector.initialDetectionPerformed": "true",
++    "RunOnceActivity.ShowReadmeOnStart": "true",
++    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
++    "RunOnceActivity.git.unshallow": "true",
++    "git-widget-placeholder": "ficha3.v1Verdadeiro",
++    "kotlin-language-version-configured": "true",
++    "node.js.detected.package.eslint": "true",
++    "node.js.detected.package.tslint": "true",
++    "node.js.selected.package.eslint": "(autodetect)",
++    "node.js.selected.package.tslint": "(autodetect)",
++    "nodejs_package_manager_path": "npm",
++    "settings.editor.selected.configurable": "vcs.Git",
++    "vue.rearranger.settings.migration": "true"
+   }
+-}</component>
++}]]></component>
+   <component name="RecentsManager">
+     <key name="MoveMembersDialog.RECENTS_KEY">
+       <recent name="ficha3.Rental" />
+@@ -80,7 +80,6 @@
+       <option name="presentableId" value="Default" />
+       <updated>1761225069302</updated>
+       <workItem from="1761225070749" duration="1236000" />
+-      <workItem from="1761830383543" duration="3963000" />
+     </task>
+     <task id="LOCAL-00001" summary="criar projeto">
+       <option name="closed" value="true" />
+@@ -90,47 +89,7 @@
+       <option name="project" value="LOCAL" />
+       <updated>1761226042252</updated>
+     </task>
+-    <task id="LOCAL-00002" summary="alterações v2, criar metodo getFrequentRentalPoints() no customer.java">
+-      <option name="closed" value="true" />
+-      <created>1761231022259</created>
+-      <option name="number" value="00002" />
+-      <option name="presentableId" value="LOCAL-00002" />
+-      <option name="project" value="LOCAL" />
+-      <updated>1761231022259</updated>
+-    </task>
+-    <task id="LOCAL-00003" summary="alterações v2, tratados erros função statement">
+-      <option name="closed" value="true" />
+-      <created>1761231583615</created>
+-      <option name="number" value="00003" />
+-      <option name="presentableId" value="LOCAL-00003" />
+-      <option name="project" value="LOCAL" />
+-      <updated>1761231583615</updated>
+-    </task>
+-    <task id="LOCAL-00004" summary="alterações v2, inline refactoring do thisAmount()">
+-      <option name="closed" value="true" />
+-      <created>1761831963648</created>
+-      <option name="number" value="00004" />
+-      <option name="presentableId" value="LOCAL-00004" />
+-      <option name="project" value="LOCAL" />
+-      <updated>1761831963648</updated>
+-    </task>
+-    <task id="LOCAL-00005" summary="alterações v2, inline refactoring do thisAmount()">
+-      <option name="closed" value="true" />
+-      <created>1761833784742</created>
+-      <option name="number" value="00005" />
+-      <option name="presentableId" value="LOCAL-00005" />
+-      <option name="project" value="LOCAL" />
+-      <updated>1761833784742</updated>
+-    </task>
+-    <task id="LOCAL-00006" summary="alterações v2, inline refactoring do thisAmount()">
+-      <option name="closed" value="true" />
+-      <created>1761834030826</created>
+-      <option name="number" value="00006" />
+-      <option name="presentableId" value="LOCAL-00006" />
+-      <option name="project" value="LOCAL" />
+-      <updated>1761834030826</updated>
+-    </task>
+-    <option name="localTasksCounter" value="7" />
++    <option name="localTasksCounter" value="2" />
+     <servers />
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">
+@@ -138,9 +97,6 @@
+   </component>
+   <component name="VcsManagerConfiguration">
+     <MESSAGE value="criar projeto" />
+-    <MESSAGE value="alterações v2, criar metodo getFrequentRentalPoints() no customer.java" />
+-    <MESSAGE value="alterações v2, tratados erros função statement" />
+-    <MESSAGE value="alterações v2, inline refactoring do thisAmount()" />
+-    <option name="LAST_COMMIT_MESSAGE" value="alterações v2, inline refactoring do thisAmount()" />
++    <option name="LAST_COMMIT_MESSAGE" value="criar projeto" />
+   </component>
+ </project>
+\ No newline at end of file
