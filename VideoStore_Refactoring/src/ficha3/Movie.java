@@ -10,7 +10,7 @@ public class Movie {
     double getRentalAmount(Rental rental) {
         double result = 0;
 
-        switch (rental.getMovie().getPriceCode())
+        switch (_priceCode)
         {
             case REGULAR:
                 result += 2;
